@@ -1,0 +1,280 @@
+body{
+	background: #F5F5F5;
+	padding-bottom: 34px;
+}
+
+.top_head{
+	width: 980px;
+	margin:0 auto;
+	height: 57px;
+//	padding-top: 20px;
+	a{
+		float: left;
+	}
+	p{
+		line-height: 57px;
+		float: right;
+		font-size: 12px;
+		color:#666666;
+		a{
+			color:#008CD4;
+			float:right;
+		}
+	}
+}
+
+.tao_r{
+	width: 980px;
+	height: 550px;
+	margin:10px auto;
+	background: #fff;
+	.left{
+		float: left;
+		position: relative;
+		height:390px;
+		width: 550px;
+		a{
+			position: absolute;
+			bottom:0;
+			right:0;
+		}
+	}
+	.right{
+		float: right;
+		width: 340px;
+		margin-right: 90px;
+		margin-top: 60px;
+		height: 330px;
+		.login-wapper{
+			width: 310px;
+			height: 480px;
+			margin-left:20px;
+			border:1px solid #E5E5E5;
+			input{
+				&:hover{
+					border:1px solid red;
+				};
+				margin:15px 0 5px 20px;
+				width: 183px;
+				height: 30px;
+				border:1px solid #C4C4C4;
+				padding:10px;
+				padding-left: 45px;
+			}
+			#box{
+				margin-top: 15px;
+				margin-left: 20px;
+				text-align: center;
+				line-height: 42px;
+				font-size: 12px;
+				position: relative;
+				width: 240px;
+				height: 42px;
+				background: #E8E8E8;
+				#color{
+					color:#fff;
+					text-align: center;
+					line-height: 42px;
+					position: absolute;
+					top:0;
+					left:0;
+					overflow: hidden;
+					width:0;
+					height: 42px;
+					background: #7AC23C;
+				}
+				#chunk{
+					cursor: pointer;
+					position: absolute;
+					top:0px;
+					left: 0;
+					text-align: center;
+					line-height:42px; 
+					height: 42px;
+					width: 50px;
+					background: #fff;
+					border:1px solid #CCCCCC;
+				}
+				#chunk2{
+					display: none;
+					cursor: pointer;
+					position: absolute;
+					top:0;
+					right: 0;
+					text-align: center;
+					line-height:42px; 
+					height: 42px;
+					width: 50px;
+					background: #fff;
+					border:1px solid #CCCCCC;
+					color:green;
+				}
+				#btn{
+					float: left;
+					height: 30px;
+				}
+			}
+			#user{
+				background: url(../img/user.png) no-repeat 15px center;
+			}
+			#psw{
+				background: url(../img/password.png) no-repeat 15px center;
+			}
+			.sliding{
+			width: 240px;
+			height: 34px;
+			margin:15px 0 0 20px;
+			background: red;
+			}
+			.msg{
+				width: 260px;
+				height: 40px;
+				font-size: 12px;
+				// text-align: center;
+				padding-left: 20px;
+				line-height: 40px;
+				color:red;
+			}
+			.login{
+				position: relative;
+				height: 50px;
+				margin:6px 0;
+				margin-left: 20px;
+				width: 240px;
+				.btn{
+					cursor: pointer;
+					margin:0;
+					padding:0;
+					height: 50px;
+					width: 122px;
+					background: #F0453F;
+					color:#fff;
+					font-size: 20px;
+					margin-right: 30px;
+				}
+				a{
+					position: absolute;
+					right:0;
+					bottom:1px;
+					&:hover{
+						border-bottom:1px solid #666666;
+					};
+					border:1px solid #fff;
+					font-size: 12px;
+					color:#666666;
+				}
+			}
+			.othlogin{
+				width: 290px;
+				height: 133px;
+				padding-left: 20px;
+				margin-top: 10px;
+				padding-top: 20px;
+				h2{
+					font-size: 12px;
+					color:#666666;
+					// margin-top: 30px;
+				}
+				p{
+					width: 380px;
+					height: 40px;
+					margin-top: 5px;
+					padding-top: 5px;
+					a{
+						float: left;
+						display: inline-block;
+						width: 94px;
+						height: 33px;
+						&:nth-child(1){
+							margin-right: 5px;
+							background: url(../img/bg2.png) no-repeat;
+							background-position: 0 0;
+						};
+						&:nth-child(2){
+							background: url(../img/QQ.png) no-repeat;
+							background-position: 0 -88px;
+						};
+					}
+					span{
+							display: block;
+							float:left;
+							color:#999999;
+							cursor: pointer;
+							font-size: 12px;
+							width: 44px;
+							height: 40px;
+							line-height: 40px;
+							text-align: center;
+							i{
+								margin-left: 5px;
+								display: inline-block;
+								width: 10px;
+								height: 5px;
+								background: url(../img/xiaarr.png) no-repeat;
+							}
+					};
+				}
+				.more_login{
+					position: relative;
+					overflow: hidden;
+					height: 0;
+					width: 360px;
+					a{
+						position: absolute;
+
+						display: inline-block;
+						width: 105px;
+						height: 32px;
+						&:nth-child(1){
+							top:5px;
+							left:0;
+							background: url(../img/renren.png) no-repeat;
+						};
+						&:nth-child(2){
+							top:5px;
+							left:110px;
+							background: url(../img/taobao.png) no-repeat;
+						};
+					}
+				}
+
+			}
+		}
+	}
+}
+.foot-con{
+	height: 90px;
+	background: #fff;
+	padding-top: 10px;
+	.area_foot{
+		line-height: 30px;
+		text-align: center;
+		font-size: 10px;
+		width: 980px;
+		height: 60px;
+		margin:0 auto;
+		color:#999999;
+		.bm{
+			color:#999999;
+			&:hover{border-bottom: 1px solid #999999};
+		}
+		div{
+			a{
+				display: inline-block;
+				width: 90px;
+				height: 35px;
+				margin: 10px 10px 0 0;
+				&:nth-child(1){
+				background: url(../img/left.png) no-repeat;
+				};
+				&:nth-child(2){
+					background: url(../img/center.png) no-repeat;
+				};
+				&:nth-child(3){
+					background: url(../img/right.png) no-repeat;
+				};
+			}
+		}
+	}
+}
+

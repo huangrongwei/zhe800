@@ -1,0 +1,232 @@
+body {
+  background: #F5F5F5;
+  padding-bottom: 34px; }
+
+.top_head {
+  width: 980px;
+  margin: 0 auto;
+  height: 57px; }
+  .top_head a {
+    float: left; }
+  .top_head p {
+    line-height: 57px;
+    float: right;
+    font-size: 12px;
+    color: #666666; }
+    .top_head p a {
+      color: #008CD4;
+      float: right; }
+
+.tao_r {
+  width: 980px;
+  height: 550px;
+  margin: 10px auto;
+  background: #fff; }
+  .tao_r .left {
+    float: left;
+    position: relative;
+    height: 390px;
+    width: 550px; }
+    .tao_r .left a {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+  .tao_r .right {
+    float: right;
+    width: 340px;
+    margin-right: 90px;
+    margin-top: 60px;
+    height: 330px; }
+    .tao_r .right .login-wapper {
+      width: 310px;
+      height: 480px;
+      margin-left: 20px;
+      border: 1px solid #E5E5E5; }
+      .tao_r .right .login-wapper input {
+        margin: 15px 0 5px 20px;
+        width: 183px;
+        height: 30px;
+        border: 1px solid #C4C4C4;
+        padding: 10px;
+        padding-left: 45px; }
+        .tao_r .right .login-wapper input:hover {
+          border: 1px solid red; }
+      .tao_r .right .login-wapper #box {
+        margin-top: 15px;
+        margin-left: 20px;
+        text-align: center;
+        line-height: 42px;
+        font-size: 12px;
+        position: relative;
+        width: 240px;
+        height: 42px;
+        background: #E8E8E8; }
+        .tao_r .right .login-wapper #box #color {
+          color: #fff;
+          text-align: center;
+          line-height: 42px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          width: 0;
+          height: 42px;
+          background: #7AC23C; }
+        .tao_r .right .login-wapper #box #chunk {
+          cursor: pointer;
+          position: absolute;
+          top: 0px;
+          left: 0;
+          text-align: center;
+          line-height: 42px;
+          height: 42px;
+          width: 50px;
+          background: #fff;
+          border: 1px solid #CCCCCC; }
+        .tao_r .right .login-wapper #box #chunk2 {
+          display: none;
+          cursor: pointer;
+          position: absolute;
+          top: 0;
+          right: 0;
+          text-align: center;
+          line-height: 42px;
+          height: 42px;
+          width: 50px;
+          background: #fff;
+          border: 1px solid #CCCCCC;
+          color: green; }
+        .tao_r .right .login-wapper #box #btn {
+          float: left;
+          height: 30px; }
+      .tao_r .right .login-wapper #user {
+        background: url(../img/user.png) no-repeat 15px center; }
+      .tao_r .right .login-wapper #psw {
+        background: url(../img/password.png) no-repeat 15px center; }
+      .tao_r .right .login-wapper .sliding {
+        width: 240px;
+        height: 34px;
+        margin: 15px 0 0 20px;
+        background: red; }
+      .tao_r .right .login-wapper .msg {
+        width: 260px;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 20px;
+        line-height: 40px;
+        color: red; }
+      .tao_r .right .login-wapper .login {
+        position: relative;
+        height: 50px;
+        margin: 6px 0;
+        margin-left: 20px;
+        width: 240px; }
+        .tao_r .right .login-wapper .login .btn {
+          cursor: pointer;
+          margin: 0;
+          padding: 0;
+          height: 50px;
+          width: 122px;
+          background: #F0453F;
+          color: #fff;
+          font-size: 20px;
+          margin-right: 30px; }
+        .tao_r .right .login-wapper .login a {
+          position: absolute;
+          right: 0;
+          bottom: 1px;
+          border: 1px solid #fff;
+          font-size: 12px;
+          color: #666666; }
+          .tao_r .right .login-wapper .login a:hover {
+            border-bottom: 1px solid #666666; }
+      .tao_r .right .login-wapper .othlogin {
+        width: 290px;
+        height: 133px;
+        padding-left: 20px;
+        margin-top: 10px;
+        padding-top: 20px; }
+        .tao_r .right .login-wapper .othlogin h2 {
+          font-size: 12px;
+          color: #666666; }
+        .tao_r .right .login-wapper .othlogin p {
+          width: 380px;
+          height: 40px;
+          margin-top: 5px;
+          padding-top: 5px; }
+          .tao_r .right .login-wapper .othlogin p a {
+            float: left;
+            display: inline-block;
+            width: 94px;
+            height: 33px; }
+            .tao_r .right .login-wapper .othlogin p a:nth-child(1) {
+              margin-right: 5px;
+              background: url(../img/bg2.png) no-repeat;
+              background-position: 0 0; }
+            .tao_r .right .login-wapper .othlogin p a:nth-child(2) {
+              background: url(../img/QQ.png) no-repeat;
+              background-position: 0 -88px; }
+          .tao_r .right .login-wapper .othlogin p span {
+            display: block;
+            float: left;
+            color: #999999;
+            cursor: pointer;
+            font-size: 12px;
+            width: 44px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center; }
+            .tao_r .right .login-wapper .othlogin p span i {
+              margin-left: 5px;
+              display: inline-block;
+              width: 10px;
+              height: 5px;
+              background: url(../img/xiaarr.png) no-repeat; }
+        .tao_r .right .login-wapper .othlogin .more_login {
+          position: relative;
+          overflow: hidden;
+          height: 0;
+          width: 360px; }
+          .tao_r .right .login-wapper .othlogin .more_login a {
+            position: absolute;
+            display: inline-block;
+            width: 105px;
+            height: 32px; }
+            .tao_r .right .login-wapper .othlogin .more_login a:nth-child(1) {
+              top: 5px;
+              left: 0;
+              background: url(../img/renren.png) no-repeat; }
+            .tao_r .right .login-wapper .othlogin .more_login a:nth-child(2) {
+              top: 5px;
+              left: 110px;
+              background: url(../img/taobao.png) no-repeat; }
+
+.foot-con {
+  height: 90px;
+  background: #fff;
+  padding-top: 10px; }
+  .foot-con .area_foot {
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    color: #999999; }
+    .foot-con .area_foot .bm {
+      color: #999999; }
+      .foot-con .area_foot .bm:hover {
+        border-bottom: 1px solid #999999; }
+    .foot-con .area_foot div a {
+      display: inline-block;
+      width: 90px;
+      height: 35px;
+      margin: 10px 10px 0 0; }
+      .foot-con .area_foot div a:nth-child(1) {
+        background: url(../img/left.png) no-repeat; }
+      .foot-con .area_foot div a:nth-child(2) {
+        background: url(../img/center.png) no-repeat; }
+      .foot-con .area_foot div a:nth-child(3) {
+        background: url(../img/right.png) no-repeat; }
+
+/*# sourceMappingURL=login.css.map */

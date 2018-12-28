@@ -1,0 +1,525 @@
+@charset "UTF-8";
+.side {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 34px;
+  background-color: #000;
+  height: 100%;
+  z-index: 99999; }
+  .side a {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 34px;
+    height: 42px; }
+    .side a:hover {
+      background-color: red; }
+    .side a:nth-child(2) {
+      background-image: url(../img/side_golds.png);
+      background-position: 6px -188px;
+      background-repeat: no-repeat; }
+    .side a:nth-child(3) {
+      background-image: url(../img/juan.png);
+      background-position: 40% 50%;
+      background-repeat: no-repeat; }
+    .side a:nth-child(4) {
+      background-image: url(../img/xingxing.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    .side a:nth-child(5) {
+      background-image: url(../img/side_golds.png);
+      background-position: 4px -230px;
+      background-repeat: no-repeat; }
+    .side a:nth-child(6) {
+      margin-top: 120px;
+      background-image: url(../img/sidePanel.gif);
+      background-repeat: no-repeat; }
+      .side a:nth-child(6):hover {
+        background-image: url(../img/side_golds.png);
+        background-position: 0px -47px; }
+    .side a:nth-child(7) {
+      background-image: url(../img/common2.png);
+      background-repeat: no-repeat;
+      background-position: -482px -385px; }
+    .side a:nth-child(8) {
+      background-image: url(../img/common2.png);
+      background-repeat: no-repeat;
+      background-position: -364px -385px; }
+    .side a:nth-child(9) {
+      background-image: url(../img/common2.png);
+      background-repeat: no-repeat;
+      background-position: -426px -385px; }
+    .side a:nth-child(10) {
+      background-image: url(../img/common2.png);
+      background-repeat: no-repeat;
+      background-position: -596px -385px; }
+    .side a div {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 34px;
+      width: 100px;
+      height: 100%;
+      background: red; }
+  .side .shoppingcar {
+    padding-top: 30px;
+    margin-top: 50px;
+    padding: 0 5px;
+    width: 24px;
+    font-size: 14px;
+    height: 103px;
+    color: #fff; }
+    .side .shoppingcar i {
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 15px;
+      margin-top: 10px;
+      margin-left: 5px;
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: red; }
+    .side .shoppingcar:hover {
+      background: red; }
+      .side .shoppingcar:hover i {
+        background: #fff;
+        color: red; }
+
+#wrapper {
+  width: 100%;
+   /*
+登录条
+*/
+   /*
+logo
+*/
+   /*
+导航栏
+*/ }
+  #wrapper #login_box {
+    width: 100%;
+    height: 30px;
+    background: #fafafa; }
+    #wrapper #login_box .login {
+      background: #fafafa;
+      width: 100%;
+      height: 30px; }
+      #wrapper #login_box .login .login_1 {
+        width: 180px;
+        height: 30px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px; }
+        #wrapper #login_box .login .login_1 a {
+          color: #999; }
+          #wrapper #login_box .login .login_1 a:hover {
+            color: #E12E2F; }
+        #wrapper #login_box .login .login_1 .b1 {
+          display: inline-block;
+          width: 1px;
+          height: 12px;
+          background: #e5e5e5;
+          top: 2px;
+          margin: 0 20px; }
+      #wrapper #login_box .login .login_2 {
+        width: 430px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+        float: right; }
+        #wrapper #login_box .login .login_2 a {
+          color: #999; }
+          #wrapper #login_box .login .login_2 a:hover {
+            color: #E12E2F; }
+        #wrapper #login_box .login .login_2 .b1 {
+          display: inline-block;
+          width: 1px;
+          height: 12px;
+          background: #e5e5e5;
+          top: 2px;
+          margin: 0 20px; }
+      #wrapper #login_box .login .login_2a {
+        display: none;
+        width: 420px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+        float: right; }
+        #wrapper #login_box .login .login_2a a {
+          color: #999; }
+          #wrapper #login_box .login .login_2a a:hover {
+            color: #E12E2F; }
+        #wrapper #login_box .login .login_2a .login_2a_name {
+          color: #999;
+          float: left;
+          width: 150px;
+          height: 30px; }
+          #wrapper #login_box .login .login_2a .login_2a_name i {
+            background: url(../img/tb_bg2_new.png) no-repeat;
+            background-position: 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 12px; }
+          #wrapper #login_box .login .login_2a .login_2a_name a {
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            color: #E12E2F; }
+            #wrapper #login_box .login .login_2a .login_2a_name a:hover {
+              border: 1px solid #F1F1F1;
+              border-bottom: none;
+              background: #fff; }
+            #wrapper #login_box .login .login_2a .login_2a_name a:hover .login_2a_list {
+              display: block; }
+            #wrapper #login_box .login .login_2a .login_2a_name a .login_2a_list {
+              opacity: 0.6;
+              display: none;
+              border: 1px solid #F1F1F1;
+              border-top: none;
+              position: absolute;
+              top: 30px;
+              left: 0px;
+              width: 160px; }
+              #wrapper #login_box .login .login_2a .login_2a_name a .login_2a_list li {
+                color: #999;
+                float: left;
+                text-align: center;
+                line-height: 24px;
+                width: 80px;
+                height: 24px; }
+                #wrapper #login_box .login .login_2a .login_2a_name a .login_2a_list li:hover {
+                  border-radius: 5px;
+                  background: #ec1611;
+                  color: #fff; }
+        #wrapper #login_box .login .login_2a .b1 {
+          display: inline-block;
+          width: 1px;
+          height: 12px;
+          background: #e5e5e5;
+          top: 2px;
+          margin: 0 15px; }
+      #wrapper #login_box .login .login_3 {
+        width: 210px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        float: right; }
+        #wrapper #login_box .login .login_3 span {
+          position: relative;
+          display: inline-block;
+          width: 120px;
+          height: 30px; }
+          #wrapper #login_box .login .login_3 span:hover {
+            border: 1px solid #F1F1F1;
+            border-top: none;
+            border-bottom: none;
+            background: #fff;
+            color: #E12E2F; }
+          #wrapper #login_box .login .login_3 span:hover .phone_img {
+            display: block;
+            border: 1px solid #f1f1f1;
+            border-top: none; }
+        #wrapper #login_box .login .login_3 i {
+          position: absolute;
+          left: 20px;
+          top: 6px;
+          display: inline-block;
+          width: 15px;
+          height: 18px;
+          background: url(../img/common.png) no-repeat;
+          background-position: 0 0; }
+        #wrapper #login_box .login .login_3 a {
+          color: #999; }
+          #wrapper #login_box .login .login_3 a:hover {
+            color: #E12E2F; }
+        #wrapper #login_box .login .login_3 .b1 {
+          display: inline-block;
+          width: 1px;
+          height: 12px;
+          background: #e5e5e5;
+          top: 2px;
+          margin: 0 15px; }
+        #wrapper #login_box .login .login_3 .phone_img {
+          z-index: 99;
+          display: none;
+          position: absolute;
+          top: 30px;
+          right: -10px;
+          width: 130px;
+          height: 130px;
+          text-align: center;
+          line-height: 130px; }
+  #wrapper #logo {
+    width: 100%;
+    height: 55px;
+    margin-top: 20px; }
+    #wrapper #logo .logo_l {
+      margin-left: 15px;
+      background: url(../img/logo_zhe800_new.png) no-repeat;
+      overflow: hidden;
+      width: 225px;
+      height: 55px;
+      float: left; }
+    #wrapper #logo .search {
+      margin-left: 15px;
+      margin-top: 5px;
+      position: relative;
+      width: 530px;
+      height: 40px;
+      border: 2px solid #E12E2F;
+      border-right: none;
+      float: left; }
+      #wrapper #logo .search .search_img {
+        float: left;
+        padding-left: 30px;
+        width: 115px;
+        height: 45px;
+        line-height: 40px;
+        font-size: 18px;
+        color: #fff;
+        background: url(../img/common.png) no-repeat;
+        background-position: -35px -33px; }
+      #wrapper #logo .search #text {
+        margin-left: 5px;
+        position: absolute;
+        top: 2px;
+        left: 115px;
+        width: 355px;
+        height: 30px; }
+      #wrapper #logo .search .smt {
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        width: 40px;
+        height: 34px;
+        background: url(../img/common.png) no-repeat;
+        background-position: -33px 0; }
+    #wrapper #logo .search_r {
+      background: url(../img/common.png) no-repeat;
+      background-position: 0 -30px;
+      position: absolute;
+      top: -5px;
+      right: -14px;
+      width: 15px;
+      height: 45px; }
+    #wrapper #logo .logo_r {
+      margin-left: 15px;
+      width: 340px;
+      height: 55px;
+      float: right; }
+      #wrapper #logo .logo_r img {
+        width: 340px;
+        height: 40px; }
+  #wrapper #nav {
+    width: 100%; 
+    border-bottom: 1px solid #ccc;}
+    #wrapper #nav .nav_con {
+      margin-top: 20px;
+      width: 100%;
+      height: 40px; }
+      #wrapper #nav .nav_con h3 {
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        float: left;
+        background: #E12E2F;
+        color: #fff; }
+        #wrapper #nav .nav_con h3:hover {
+          box-shadow: 5px 0 10px #ddd, -5px 0 10px #ddd;
+          border-bottom: 2px solid #ec1611;
+          height: 40px; }
+        #wrapper #nav .nav_con h3 .menu {
+          display: none;
+          width: 150px;
+          border: 1px solid #e0e0e0; }
+          #wrapper #nav .nav_con h3 .menu .menu_list {
+            position: relative;
+            width: 150px; }
+            #wrapper #nav .nav_con h3 .menu .menu_list li {
+              margin-left: 5px;
+              width: 136px;
+              height: 30px;
+              line-height: 30px;
+              border-bottom: 1px solid #e0e0e0; }
+              #wrapper #nav .nav_con h3 .menu .menu_list li:hover .menu_list_li {
+                display: block; }
+              #wrapper #nav .nav_con h3 .menu .menu_list li:hover a {
+                color: #E12E2F; }
+              #wrapper #nav .nav_con h3 .menu .menu_list li a {
+                color: #696969;
+                display: inline-block;
+                line-height: 30px;
+                text-align: center;
+                width: 60px;
+                height: 30px; }
+                #wrapper #nav .nav_con h3 .menu .menu_list li a:hover {
+                  text-decoration: underline; }
+              #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li {
+                z-index: 99;
+                background: #fff;
+                overflow: hidden;
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 150px;
+                width: 384px;
+                height: 304px;
+                border: 1px solid #e0e0e0; }
+                #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_text {
+                  float: left;
+                  width: 200px;
+                  height: 300px; }
+                  #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_text h4 {
+                    margin-left: 10px;
+                    text-align: left;
+                    border-bottom: 1px solid #e0e0e0;
+                    width: 150px;
+                    height: 30px;
+                    color: red; }
+                  #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_text ul {
+                    width: 200px;
+                    height: 120px; }
+                    #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_text ul li {
+                      border-bottom: none;
+                      width: 60px;
+                      height: 30px;
+                      line-height: 30px;
+                      font-size: 12px;
+                      color: red;
+                      float: left; }
+                #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_img {
+                  float: right;
+                  width: 150px; }
+                  #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_img ul {
+                    width: 150px; }
+                    #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_img ul li {
+                      margin-top: 5px;
+                      margin-right: 10px;
+                      width: 140px;
+                      height: 93px; }
+                      #wrapper #nav .nav_con h3 .menu .menu_list li .menu_list_li .menu_list_li_img ul li img {
+                        width: 140px;
+                        height: 93px; }
+      #wrapper #nav .nav_con .nav_list {
+        width: px;
+        height: 40px;
+        float: left; }
+        #wrapper #nav .nav_con .nav_list a {
+          color: #696969;
+          display: inline-block;
+          width: 120px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center; }
+          #wrapper #nav .nav_con .nav_list a:hover {
+            box-shadow: 5px 0 10px #ddd, -5px 0 10px #ddd;
+            border-bottom: 2px solid #ec1611;
+            height: 40px; }
+      #wrapper #nav .nav_con .nav_gif {
+        width: 126px;
+        height: 40px;
+        float: right; }
+        #wrapper #nav .nav_con .nav_gif img {
+          width: 126px;
+          height: 40px; }
+  #wrapper .about {
+    height: 270px;
+    background: #fff;
+    margin-top: 30px; }
+    #wrapper .about ul {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto; }
+      #wrapper .about ul li {
+        float: left;
+        height: 100%;
+        width: 160px;
+        margin-right: 30px; }
+        #wrapper .about ul li span {
+          display: block; }
+          #wrapper .about ul li span:nth-child(1) {
+            margin-bottom: 20px;
+            width: 80px;
+            height: 80px; }
+          #wrapper .about ul li span:nth-child(2) {
+            line-height: 30px;
+            height: 30px;
+            font-size: 16px;
+            color: #000; }
+        #wrapper .about ul li a {
+          font-size: 12px;
+          color: #b4b0b0;
+          line-height: 24px;
+          display: block;
+          width: 85px;
+          height: 24px; }
+          #wrapper .about ul li a:hover {
+            color: #FF404C;
+            text-decoration: underline; }
+        #wrapper .about ul li:nth-child(5) p {
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          color: #b4b0b0; }
+          #wrapper .about ul li:nth-child(5) p a {
+            display: inline-block; }
+            #wrapper .about ul li:nth-child(5) p a:hover {
+              color: #FF404C;
+              text-decoration: underline; }
+        #wrapper .about ul li:nth-child(5) div {
+          font-size: 12px;
+          color: #b4b0b0; }
+          #wrapper .about ul li:nth-child(5) div input {
+            height: 23px; }
+            #wrapper .about ul li:nth-child(5) div input:nth-child(1) {
+              color: #9b9797;
+              font-size: 12px;
+              width: 98px;
+              border: 1px solid #e5e5e5; }
+            #wrapper .about ul li:nth-child(5) div input:nth-child(2) {
+              height: 25px;
+              width: 38px;
+              background: #fff;
+              font-size: 12px;
+              color: #9b9797;
+              border: 1px solid #e5e5e5; }
+        #wrapper .about ul li .er {
+          width: 104px;
+          height: 220px;
+          background: url(../img/erweima.png) no-repeat; }
+        #wrapper .about ul li .smallimg1 {
+          background: url(../img/aboutme.png) no-repeat; }
+        #wrapper .about ul li .smallimg2 {
+          background: url(../img/shoppingnav.png) no-repeat; }
+        #wrapper .about ul li .smallimg3 {
+          background: url(../img/shoppingbao.png) no-repeat; }
+        #wrapper .about ul li .smallimg4 {
+          background: url(../img/shoppinghe.png) no-repeat; }
+        #wrapper .about ul li .smallimg5 {
+          background: url(../img/shoppingagain.png) no-repeat; }
+  #wrapper .footer {
+    position: relative;
+    line-height: 36px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    font-size: 12px;
+    color: #b4b0b0; }
+    #wrapper .footer a {
+      color: #b4b0b0; }
+    #wrapper .footer img {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -40px; }
+
+/*# sourceMappingURL=detail.css.map */
