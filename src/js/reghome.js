@@ -1,6 +1,6 @@
 require.config({
 	paths:{
-		'jq':'../lib/jquery-1.10.1.min',
+		'jq':'../lib/jquery-3.2.1',
 		'common':'../lib/common',
 		'reg':'register'
 	},

@@ -4,7 +4,7 @@ $(function(){
 		
 			
 	var name=Cookie.get('name');
-     console.log(name);
+//   console.log(name);
 	if (name) {
 		$('.name').css('display','none');
 	    $('.name1').css('display','block');
@@ -121,7 +121,7 @@ $(function(){
 	$(window).scroll(function(){
 	//获取滚动条的滑动距离
 	var scroH = $(this).scrollTop();
-	console.log(scroH);
+//	console.log(scroH);
 	//滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
 	if(scroH>=770){
 		$(".comment_top").css('display','block');
