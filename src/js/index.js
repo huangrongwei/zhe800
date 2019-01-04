@@ -46,7 +46,7 @@ $(function(){
 			if(res){
 				Cookie.set('name',name,{'expires':now,'path':'/' });
 //				Cookie.remove('name');
-				location.href='index1.html';
+				location.href='index.html';
 			}
 			
 		}

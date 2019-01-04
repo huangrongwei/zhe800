@@ -103,7 +103,7 @@ $(function(){
 					Cookie.set('name',user,{'expires':now,'path':'/' });
 //					 console.log(Cookie.get("name"));
 					
-					location.href='../index1.html';
+					location.href='../index.html';
 
 				}else{
 					$('.msg').text('用户名或密码错误,请重试');
